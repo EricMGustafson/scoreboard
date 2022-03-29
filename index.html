@@ -18,38 +18,38 @@
         <!-- score adding -->
         <div class="row text-center p-1">
           <div class="col">
-            <button class="btn btn-dark" onclick="teamOneScore()">plus1</button>
-            <button class="btn btn-dark" onclick="teamOneScoreThree()">plus3</button>
-            <button class="btn btn-dark" onclick="teamOneScoreSix()">plus6</button>
+            <button class="btn btn-dark" onclick="scoring('Apple', 1)">plus1</button>
+            <button class="btn btn-dark" onclick="scoring('Apple', 3)">plus3</button>
+            <button class="btn btn-dark" onclick="scoring('Apple', 6)">plus6</button>
           </div>
           <div class="col">
-            <button class="btn btn-light" onclick="teamTwoScore()">plus1</button>
-            <button class="btn btn-light" onclick="teamTwoScoreThree()">plus3</button>
-            <button class="btn btn-light" onclick="teamTwoScoreSix()">plus6</button>
+            <button class="btn btn-light" onclick="scoring('Banana', 1)">plus1</button>
+            <button class="btn btn-light" onclick="scoring('Banana', 3)">plus3</button>
+            <button class="btn btn-light" onclick="scoring('Banana', 6)">plus6</button>
           </div>
         </div>
         <!-- score subtracting -->
         <div class="row text-center p-1">
           <div class="col">
-            <button class="btn btn-dark" onclick="teamOneMinus()">minus1</button>
-            <button class="btn btn-dark" onclick="teamOneMinusThree()">minus3</button>
-            <button class="btn btn-dark" onclick="teamOneMinusSix()">minus6</button>
+            <button class="btn btn-dark" onclick="scoring('Apple', -1)">minus1</button>
+            <button class="btn btn-dark" onclick="scoring('Apple', -3)">minus3</button>
+            <button class="btn btn-dark" onclick="scoring('Apple', -6)">minus6</button>
           </div>
           <div class="col">
-            <button class="btn btn-light" onclick="teamTwoMinus()">minus1</button>
-            <button class="btn btn-light" onclick="teamTwoMinusThree()">minus3</button>
-            <button class="btn btn-light" onclick="teamTwoMinusSix()">minus6</button>
+            <button class="btn btn-light" onclick="scoring('Banana', -1)">minus1</button>
+            <button class="btn btn-light" onclick="scoring('Banana', -3)">minus3</button>
+            <button class="btn btn-light" onclick="scoring('Banana', -6)">minus6</button>
           </div>
         </div>
         <!-- scoreboard -->
         <div class="row text-center">
           <div class="col">
             <h2>Team One Score</h2>
-            <div id="sscore-1"></div>
+            <div id="score-1">0</div>
           </div>
           <div class="col">
             <h2>Team Two Score</h2>
-            <div id="score-2"></div>
+            <div id="score-2">0</div>
           </div>
         </div>
       </div>
